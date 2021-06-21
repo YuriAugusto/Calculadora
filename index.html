@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora com JS</title>
+
+    <link rel="stylesheet" href="css/calculadora.css">
+
+</head>
+
+<body>
+    <main class="conteudo-principal">
+
+        <h2 class="conteudo-principal__titulo">Calculadora com JavaScript</h2>
+
+        <form class="conteudo-principal__calculadora" action="">
+            <fieldset class="calculadora__cabecalho">
+                <input type="text" class="cabecalho__conta" value="30 * 8" readonly>
+                <label class="cabecalho__resultado"> 240 </label>
+            </fieldset>
+            <fieldset class="calculadora__corpo">
+                <input type="button" id="digitoAc" class="botao-calculadora botao-calculadora--outras-operacoes"
+                    value="AC">
+                <input type="button" id="digitoMaisMenos" class="botao-calculadora botao-calculadora--outras-operacoes"
+                    value="+/-">
+                <input type="button" id="digitoPercentual" class="botao-calculadora botao-calculadora--outras-operacoes"
+                    value="%">
+                <input type="button" id="digitoDiv" class="botao-calculadora botao-calculadora--operacao" value="/">
+                <input type="button" id="digito7"  class="botao-calculadora" value="7">
+                <input type="button" id="digito8" class="botao-calculadora" value="8">
+                <input type="button" id="digito9" class="botao-calculadora" value="9">
+                <input type="button" id="digitoX" class="botao-calculadora botao-calculadora--operacao" value="x">
+                <input type="button" id="digito4" class="botao-calculadora" value="4">
+                <input type="button" id="digito5" class="botao-calculadora" value="5">
+                <input type="button" id="digito6" class="botao-calculadora" value="6">
+                <input type="button" id="digitoMenos" class="botao-calculadora botao-calculadora--operacao" value="-">
+                <input type="button" id="digito1" class="botao-calculadora" value="1">
+                <input type="button" id="digito2" class="botao-calculadora" value="2">
+                <input type="button" id="digito3" class="botao-calculadora" value="3">
+                <input type="button" id="digitoMais" class="botao-calculadora botao-calculadora--operacao" value="+">
+                <input type="button" id="digitoReload" class="botao-calculadora" value="&#10226;">
+                <input type="button" id="digito0" class="botao-calculadora" value="0">
+                <input type="button" id="digitoPonto" class="botao-calculadora" value=".">
+                <input type="button" id="digitoIgual" class="botao-calculadora botao-calculadora--operacao" value="=">
+            </fieldset>
+        </form>
+    </main>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/script.js"></script>
+
+</html>
